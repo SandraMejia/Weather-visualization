@@ -31,7 +31,7 @@ body {
 .navbar-toggler{
   width: 47px;
   height: 34px;
-  background-color: rgb(110, 110, 110)
+  background-color: rgb(110, 110, 110);
 }
 .navbar-toggler .line{
   width: 100%;
@@ -134,7 +134,7 @@ body {
 
   .gran_titulo {
     color: rgb(194, 139, 0);
-    text-shadow: 3px 3px 5px rgb(100, 100, 100);
+    /* text-shadow: 3px 3px 5px rgb(100, 100, 100); */
     text-decoration: darkblue;
     text-align: center;
     padding: 20px
