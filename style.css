@@ -4,21 +4,23 @@ body {
 
 
 .bar{
-padding: 0 0 0 50px;
-background: white;
-color: teal
-}
-@media(max-width:768px) {  
-.bar{
   background-color: teal;
-  color: rgb(100, 100, 100)
+  color: white;
+}
+@media(min-width:768px) {  
+.bar{
+  padding: 0 0 0 50px;
+  background: white;
+  color: teal;
 }
 }
+
+
 
 
 .navformat {
 background-color: teal;
-color: rgb(80, 80, 80);;
+color: white;
 }
 @media(min-width:768px) {
 .navformat {
@@ -47,7 +49,7 @@ border:none;
   color: white;
   padding:5px 10px 5px 10px;
   margin:0;
-  /* vertical-align: auto; */
+  vertical-align: auto;
   height: 100%;
 }
 
